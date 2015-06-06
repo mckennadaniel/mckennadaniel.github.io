@@ -1,0 +1,69 @@
+/* Body style */
+body {
+	width: auto;
+	max-width: 60%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+/* Style for all images */
+img {
+	display: block;
+	width: 110%;
+	height: 110%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+/* Page title style */
+.page-title {
+	font-family: serif;
+	font-size: 4em;
+	font-variant: small-caps;
+	white-space: pre;
+	margin-top: 1em;
+	text-align: center;
+}
+
+/* Image caption style */
+.image-caption {
+	text-align: center;
+  color: #7F7F7F;
+}
+
+/* Main navigation bar style */
+nav#main-nav-menu {
+	text-align: center;
+}
+
+nav#main-nav-menu ul {
+	font-family: "Trebutchet MS", Helvetica, Tahoma, sans-serif;
+	font-size: 24px;
+}
+
+nav#main-nav-menu ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+nav#main-nav-menu ul li a {
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: #C0C0C0
+}
+
+nav#main-nav-menu ul li a:hover {
+	background-color: #A9E2F3;
+	text-decoration: underline;
+	border-radius: 5px;
+}
+
+.center-aligned-text {
+	width: auto;
+	max-width: 90%;
+	margin: 0 auto;
+	display: block;
+}
